@@ -1,0 +1,40 @@
+body {
+  background-color: #ffe6f0;
+  min-height: 100vh;
+  font-family: "Poppins", "Nunito", "Segoe UI", Tahoma, Geneva, Verdana,
+    sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.bg-pink {
+  background-color: #d68ca4 !important;
+}
+
+.card {
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+li.ramo {
+  background-color: #f7c7d9;
+  margin-bottom: 6px;
+  padding: 8px 12px;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  user-select: none;
+  font-weight: 500;
+  color: #4a2c57;
+}
+
+li.ramo.completed {
+  background-color: #6a4a8c !important;
+  color: #f0e7f6 !important;
+  text-decoration: line-through;
+}
+
+li.ramo:not(.completed):hover {
+  background-color: #c783b8;
+  color: white;
+}
